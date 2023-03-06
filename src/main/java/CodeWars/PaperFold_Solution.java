@@ -8,6 +8,10 @@ public class PaperFold_Solution {
 
     }
 
+    public int [] paperFoldSequenceGenerator(int i) {
+        return null;
+    }
+
     class PaperFold implements IntSupplier {
 
         @Override
