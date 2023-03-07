@@ -5,20 +5,24 @@ import java.util.*;
 public class OutputFormatting_Solution {
 
     public static void main(String[] args) {
+        System.out.println("================================");
+        stringFormatting();
+        System.out.println("================================");
 
     }
 
-    public static String stringFormatting (String str) {
-        System.out.printf("");
+    public static void stringFormatting () {
+
+        System.out.printf("",outputReader());
     }
 
     public static String outputReader() {
-        StringBuilder outputStr = new StringBuilder();
+        StringBuilder builder = new StringBuilder();
         try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in))) {
-            outputStr.append(bufferedReader.readLine());
+            builder.append(bufferedReader.readLine());
         } catch (Exception exception) {
             exception.printStackTrace();
         }
-        return outputStr.toString();
+        return builder.toString();
     }
 }
