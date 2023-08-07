@@ -19,4 +19,10 @@ public class PaperFold_Solution {
             return 0;
         }
     }
+
+    class Treenod {
+        int value;
+        Treenod leftChild;
+        Treenod rightChild;
+    }
 }
