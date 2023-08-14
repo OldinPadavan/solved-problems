@@ -35,4 +35,5 @@ public class OutputFormatting_Solution {
         }
         return strings.toArray(new String[strings.size()]);
     }
+
 }
