@@ -1,10 +1,5 @@
 package HackerRank;
 
-<<<<<<< HEAD
-public class OutputFormatting_SolutionTest {
-
-}
-=======
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -15,12 +10,13 @@ import java.io.PrintStream;
 import static org.junit.jupiter.api.Assertions.*;
 
 class OutputFormatting_SolutionTest {
-    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-    private final PrintStream originalOut = System.out;
+    private final String testString1 = "cpp 065";
+    private final String testString2 = "java 100";
+    private final String testString3 = "python 89";
 
     @BeforeAll
     public void setUpStreams(){
-        System.setOut(new PrintStream(OutputFormatting_Solution.stringFormatting()));
+
     }
 
     @Test
@@ -36,4 +32,3 @@ class OutputFormatting_SolutionTest {
         Assertions.assertEquals(OutputFormatting_Solution.outputReader(), "fortran 1500");
     }
 }
->>>>>>> 969bb1f87c00f207c6ec0daa00e3fa608d284f5a
