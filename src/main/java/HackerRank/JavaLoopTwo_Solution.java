@@ -4,7 +4,7 @@ package HackerRank;
 
 import java.util.Scanner;
 
-public class JavaLoopTwo {
+public class JavaLoopTwo_Solution {
 
     public static void main(String[] args) {
 

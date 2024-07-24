@@ -7,7 +7,7 @@ package CodeWars;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
-public class SortMemBoy {
+public class SortMemBoy_Solution {
     public static void main(String[] args) {
 
         System.out.println(menFromBoys(new int[] {7, 3, 14, 17}).toString() + "....." + new int[] {14, 17, 7, 3}.toString());
