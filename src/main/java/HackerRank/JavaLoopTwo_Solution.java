@@ -20,6 +20,7 @@ public class JavaLoopTwo_Solution {
 
     public static int [] getNumberSeq() {
         Scanner scanner = new Scanner(System.in);
+        scanner.useDelimiter("\n");
         List<Integer> newSeq = new ArrayList<>();
         while (scanner.hasNextInt()) {
             newSeq.add(scanner.nextInt());
